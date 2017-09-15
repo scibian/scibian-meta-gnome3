@@ -1,3 +1,19 @@
+scibian-meta-gnome3 (1:3.22+3sci9u1) scibian9; urgency=medium
+
+  * Fork meta-gnome3 package from Stretch.
+  * Remove bug reporting files.
+  * Bump Standards-Version to 4.0.0
+  * Update copyright.
+  * Drop gnome-games, gnome-platform-devel, gnome-devel
+    and gnome-api-docs packages.
+  * scibian-gnome-core: Drop gnome-logs, gnome-shell-extensions,
+    gnome-software, chrome-gnome-shell and tracker-gui dependencies.
+  * scibian-gnome: Drop gnome-dictionnary, gnome-maps, gnome-tweak-tool,
+    gnome-weather, transmission-gtk and alacarte dependencies.
+  * Install gnome-photos by default and keep shotwell as an alternative
+
+ -- Scibian Packaging Team <packaging@scibian.org>  Fri, 15 Sep 2017 15:38:06 +0200
+
 meta-gnome3 (1:3.22+3) unstable; urgency=medium
 
   * debian/control.in: Install shotwell by default again and keep gnome-photos
