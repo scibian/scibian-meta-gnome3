@@ -1,23 +1,26 @@
-This package was created by James LewisMoss <dres@debian.org> by
-stealing from Ivan E. Moore II <rkrusty@debian.org>.
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
-Copyright (C) 2001  Ivan E. Moore II
-Copyright (C) 2002  James LewisMoss
-Copyright (C) 2002  Colin Walters <walters@gnu.org>
+Files: *
+Copyright: 2001  Ivan E. Moore II
+           2002  James LewisMoss
+           2002 Colin Walters <walters@gnu.org>
+           2017 Scibian Packaging Team <packaging@scibian.org>
+License: GPL-3+
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+License:
 
-This program is distributed in the hope that it will be useful, but
-WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABLILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-General Public License for more details. You should have received a
-copy of the GNU General Public License along with this program; if
-not, write to the Free Software Foundation, Inc., 51 Franklin St,
-Fifth Floor, Boston, MA 02110-1301, USA.
-
---
-
-Please see /usr/share/common-licenses/GPL-2 for the full license.
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3"
