@@ -1,15 +1,12 @@
-Source: meta-gnome3
-Section: metapackages
+Source: scibian-meta-gnome3
+Section: scibian
 Priority: optional
-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: @GNOME_TEAM@
+Maintainer: Scibian Packaging Team <packaging@scibian.org>
 Standards-Version: 4.0.0
 Build-Depends: debhelper (>= 10),
                gnome-pkg-tools (>= 0.10)
-Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/meta-gnome3/
-Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/meta-gnome3/
 
-Package: gnome-core
+Package: scibian-gnome-core
 Architecture: linux-any
 Depends: libatk-adaptor (>= 2.22),
          at-spi2-core (>= 2.22),
@@ -78,8 +75,8 @@ Depends: libatk-adaptor (>= 2.22),
 Recommends: network-manager-gnome [linux-any],
             libproxy1-plugin-networkmanager [linux-any],
             anacron
-Suggests: gnome
-Description: GNOME Desktop Environment -- essential components
+Suggests: scibian-gnome
+Description: Scibian GNOME Desktop Environment -- essential components
  These are the core components of the GNOME Desktop environment, an
  intuitive and attractive desktop.
  .
@@ -89,9 +86,9 @@ Description: GNOME Desktop Environment -- essential components
  .
  It contains the official “core” modules of the GNOME desktop.
 
-Package: gnome
+Package: scibian-gnome
 Architecture: linux-any
-Depends: gnome-core (= ${binary:Version}),
+Depends: scibian-gnome-core (= ${binary:Version}),
          desktop-base,
          network-manager-gnome (>= 1.4) [linux-any],
          libproxy1-plugin-networkmanager [linux-any],
@@ -152,7 +149,7 @@ Suggests: alacarte,
           xul-ext-ublock-origin,
           xul-ext-gnome-keyring,
           firefox-esr-l10n-all | firefox-l10n-all
-Description: Full GNOME Desktop Environment, with extra components
+Description: Scibian Full GNOME Desktop Environment, with extra components
  This is the GNOME Desktop environment, an intuitive and attractive
  desktop, with extra components.
  .
