@@ -3,7 +3,7 @@ Section: metapackages
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Build-Depends: debhelper (>= 10),
                gnome-pkg-tools (>= 0.10)
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/meta-gnome3/
