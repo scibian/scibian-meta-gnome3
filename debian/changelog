@@ -1,3 +1,9 @@
+scibian-meta-gnome3 (1:3.22+3sci9u2) scibian9; urgency=medium
+
+  * scibian-gnome: Reintegrate gnome-tweak-tools dependency
+
+ -- Scibian Packaging Team <packaging@scibian.org>  Tue, 24 Oct 2017 11:31:54 +0200
+
 scibian-meta-gnome3 (1:3.22+3sci9u1) scibian9; urgency=medium
 
   * Fork meta-gnome3 package from Stretch.
