@@ -2,9 +2,9 @@ Source: scibian-meta-gnome3
 Section: scibian
 Priority: optional
 Maintainer: Scibian Packaging Team <packaging@scibian.org>
-Standards-Version: 4.0.0
-Build-Depends: debhelper (>= 10),
-               gnome-pkg-tools (>= 0.10)
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 12),
+               gnome-pkg-tools (>= 0.20)
 
 Package: scibian-gnome-core
 Architecture: linux-any
@@ -91,6 +91,7 @@ Depends: scibian-gnome-core (= ${binary:Version}),
          cheese (>= 3.22) [linux-any],
          evolution (>= 3.22),
          evolution-plugins (>= 3.22),
+         evolution-ews,
          file-roller (>= 3.22),
          gnome-calendar (>= 3.22),
          gnome-clocks (>= 3.22),
@@ -136,8 +137,6 @@ Recommends: brasero,
             polari,
 Suggests: empathy,
           goobox | sound-juicer,
-          xul-ext-ublock-origin,
-          xul-ext-gnome-keyring,
           firefox-esr-l10n-all | firefox-l10n-all
 Description: Scibian Full GNOME Desktop Environment, with extra components
  This is the GNOME Desktop environment, an intuitive and attractive
